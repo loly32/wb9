@@ -1,16 +1,16 @@
-h1 {
-    color: orange;
+table, td {
+    border: 1px solid orange;
+
 }
 
-a {
-    color: deeppink;
-}
-
-span {
-    color: red;
-}
-
-img:hover {
+td {
     width: 200px;
-    hight 
+    height: 20px;
+}
+
+.even > td:nth-child(even) {
+    background-color: black;
+}
+.odd > td:nth-child(odd) {
+    background-color: black;
 }

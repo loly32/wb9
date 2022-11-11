@@ -1,0 +1,61 @@
+.wrapper {
+    background-color: rgb(192, 192, 186);
+}
+
+.div1 {
+    height: 70px;
+    background-color: blue;
+}
+
+.div2 {
+    height: 600px;
+    background-color: chartreuse;
+    margin: 50px;
+    display: flex;
+}
+
+.t {
+    height: 550px;
+    width: 30%;
+    border: 5px solid black;
+    align-self: center;
+}
+
+.div3 {
+    height: 70px;
+    border: 5px solid black;
+} 
+
+.u {
+    height: 550px;
+    width: 70%;
+    border: 5px solid black;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.p {
+    height: 100px;
+    width: 800px;
+    border: 5px solid black;
+    align-self: center;
+    margin: 30px;
+}
+
+.q {
+    height: 100px;
+    width: 800px;
+    border: 5px solid black;
+    align-self: center;
+    
+}
+
+.r {
+    height: 100px;
+    width: 800px;
+    border: 5px solid black;
+    align-self: center;
+}

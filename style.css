@@ -1,16 +1,41 @@
-table, td {
-    border: 1px solid orange;
+* {
+    margin: 0px;
+}
+
+.wrapper {
 
 }
 
-td {
-    width: 200px;
-    height: 20px;
+p {
+    background-color: coral;
 }
 
-.even > td:nth-child(even) {
-    background-color: black;
+div {
+    border: 1px solid black;
 }
-.odd > td:nth-child(odd) {
-    background-color: black;
+
+#position-r {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: darkkhaki;
+}
+
+#position-a {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    background-color: brown;
+}
+
+#position-f {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background-color: blue;
+}
+
+.position-s {
+    position: sticky; 
+    top: 0;
 }

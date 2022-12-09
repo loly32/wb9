@@ -1,41 +1,26 @@
-* {
-    margin: 0px;
+img {
+    height: 800px;
 }
 
-.wrapper {
-
-}
-
-p {
-    background-color: coral;
-}
-
-div {
-    border: 1px solid black;
-}
-
-#position-r {
-    position: relative;
-    top: 50px;
-    left: 100px;
-    background-color: darkkhaki;
-}
-
-#position-a {
-    position: absolute;
-    right: 50px;
-    top: 0;
-    background-color: brown;
-}
-
-#position-f {
-    position: fixed;
-    bottom: 50px;
-    left: 50px;
+.lol {
     background-color: blue;
+    height: 200px;
 }
 
-.position-s {
-    position: sticky; 
-    top: 0;
+@media screen and (max-width: 900px) {
+    .lol {
+        background-color: blueviolet;
+        color: brown;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .lol {
+        background-color:coral;
+        color:lawngreen;
+        border-radius: 50%;
+    }
+    img { 
+        height: 100px;
+    }
 }

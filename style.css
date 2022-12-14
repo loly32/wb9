@@ -28,18 +28,37 @@ ul {
 #carouselExampleIndicators {
     width: 60%;
     margin: 0 auto;
-
 }
 
 .wrapper {
-    height: 56px;
+    height: 62px;
 }
 
 .zaglav {
-    margin: 0 20px;
+    margin: 0 200px;
+    font-size: 30px;
+    color: black;
 }
 
 .nav {
     width: 100%;
     justify-content: space-around;
+}
+
+span {
+    color: darkolivegreen;
+}
+
+.img {
+    text-align: center;
+}
+
+.fsearch {
+    width: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
 }

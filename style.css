@@ -38,6 +38,7 @@ ul {
     margin: 0 200px;
     font-size: 30px;
     color: black;
+    font-style: italic;
 }
 
 .nav {
@@ -60,5 +61,47 @@ span {
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 50px;
+}
+
+body {
+    background-color: rgb(145, 177, 169);
+}
+
+.card {
+    background: none;
+    width: 300px;
+}
+
+.text {
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    
+}
+
+.text-div {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 50px;
+    
+}
+
+h4 {
+    font-size: 50px;
+}
+
+h5 {
+    font-size: 50px;
+}
+
+h6 {
+    font-size: 50px;
 }

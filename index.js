@@ -1,55 +1,32 @@
-// const obj = {
-//     firstName: 'Ilya',
-//     SecondName: 'Kolesnik',
-//     info: function(phone, email) {
-//         console.log(`${this.firstName} ${this.SecondName}`);
-        
-//         console.log('Phone: ', phone);
-//         console.log('Email: ', email);
-//     }
-//     }
+// const b1 = document.getElementById('b1')
+// console.log(b1);
 
-//     obj.info()
+// const b2_1 = document.querySelector('.b2')
+// const b2_2 = document.querySelector('#b2')
+// console.log(b2_1);
+// console.log(b2_2);
 
-//     const o1 = {
-//     firstName: 'mike',
-//     SecondName: 'wasovski',
-//     }
 
-//     // const bindFunction =
-//      obj.info.bind(o1)('123-45-67','asdff')
-//     // bindFunction('123-45-67','asdff')
+// const li = document.querySelectorAll('li')
+// console.log(li);
 
-//     const o2 = {
-//         firstName: 'кто',
-//     SecondName: 'то',
-//     }
+// for (let elem of li) {
+//     console.log(elem.matches('li[value="6"]'));
+// }
+
+// let chapter = document.querySelector('.chapter')
+
+// console.log(chapter.closest('.book'));
+// console.log(chapter.closest('.contents'));
+
+// console.log(chapter.closest('h1'));
 
 
 
-// const promis = new Promise ( (resolve,reject) => {
-//     setTimeout(() => resolve('done!'),2000 )
-// })
+const inpWrite = document.('#writting')
+const p = document.querySelection('#p')
 
-// console.log(promise);
-// promise.then( result => console.log(result))
-//     result => console.log(result),
-//     error => console.log(error);
-// .catch ( error => console.log(error))
-
-
-const err = () => {
-    throw 'some error =('
-}
-
-const tryCatch = async () => {
-    try {
-        await a()
-    } catch (error) {
-    
-} 
-}
-
-const userUrl = ''
-function 
-
+inpWrite.addEventListener('input',() => {
+    console.log(inpWrite.value);
+    p.innerHTML = inpWrite.value
+})

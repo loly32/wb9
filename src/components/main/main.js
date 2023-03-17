@@ -19,10 +19,4 @@ export const user = async () => {
             avatar.src = el.image
         }
     });
-
-        
-        
-    
-    }
-
-    
+}

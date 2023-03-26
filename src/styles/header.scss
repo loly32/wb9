@@ -4,15 +4,18 @@ header {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     background-color: $gray;
-    .logo {
 
+    nav {
+        padding: 10px;
+        
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                cursor: pointer;
+                margin: 10px 10px;
+            }
+        }
     }
 
-    .company-name {
-
-    }
-
-    .contacts {
-
-    }
 }

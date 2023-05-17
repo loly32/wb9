@@ -27,3 +27,12 @@ body {
 	background: transparent;
 	font-size: 0;
 }
+
+a {
+	color: #323232 !important;
+	text-decoration: none;
+}
+
+.links > a:hover {
+	color: violet;
+}

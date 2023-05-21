@@ -13,6 +13,9 @@ border-top-style: double;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    top: 0px;
+    left: 0;
+    position: fixed;
 }
 
 .sidebar-logo {
@@ -223,7 +226,6 @@ border-top-style: double;
 .cards-wrapper-row {
     display: flex;
     column-gap: 20px;
-
 }
 
 .cards-wrapper-col {
@@ -324,6 +326,8 @@ border-top-style: double;
     display:flex;
     flex-wrap: wrap;
 }
+
+
 
 
 

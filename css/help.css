@@ -1,0 +1,37 @@
+
+.form_h1 {
+    text-align: -webkit-center;
+    
+}
+
+.input-register {
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #E9F2FF;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.button {
+    width: 100%;
+    font-weight: bold;
+    font-style: 14px;
+    display: block;
+    height: 45px;
+    background: #4f4f50;
+    border-radius: 5px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.button:hover {
+    transition: 0.5s;
+}
